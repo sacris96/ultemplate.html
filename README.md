@@ -6,4 +6,4 @@ click here!
 
 <h1>Instructions / How To Edit:</h1>
 
-<ul><li>Test</li></ul>
+<ul><li>Coming Soon!</li></ul>
