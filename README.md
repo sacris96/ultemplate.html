@@ -5,5 +5,5 @@ Userlookup template for neopets classic, to plan your pets/account/etc.
 click here!
 
 <h1>Instructions / How To Edit:</h1>
-
-<ul><li>Coming Soon!</li></ul>
+<ol>
+  <li>Control + F to search for <! -- USERLOOKUP CONTENT STARTS HERE --></li></ol>
