@@ -5,8 +5,15 @@ A userlookup template for Neopets Classic, to plan your pets/account/etc. Have q
 
 <h1><a href="https://trsilver.github.io/userlookup/template.html">View the template</a></h1>
 
+      <h1>Setup Instructions:</h1>
+<ol>
+  <li>Make a copy of this repo to your Github account.</li>
+  <li>Setup "template.html" as a <a href="https://guides.github.com/features/pages/">public Github page.</a> (ex: https://trsilver.github.io/userlookup/template.html)</li>
+  <li>Bookmark that URL & edit away!</li>
+  </ol>
 
-<h1>Instructions / How To Edit:</h1>
+
+<h1>How To Edit:</h1>
 
   <BR>Control + F to search for USERLOOKUP CONTENT STARTS HERE
   <BR>Control + F to edit the following info:
@@ -20,3 +27,5 @@ A userlookup template for Neopets Classic, to plan your pets/account/etc. Have q
 <li>EDIT PETS HERE - Pet img URL structure is case sensitive!: https://neopetsclassic.com/images/pets/Species/80by80/species_color_happy.gif</li>
   <li>TROPHIES</li></ul>
 
+
+    
