@@ -5,16 +5,16 @@ Userlookup template for neopets classic, to plan your pets/account/etc.
 
 
 <h1>Instructions / How To Edit:</h1>
-<ol>
-  <ul>Control + F to search for USERLOOKUP CONTENT STARTS HERE</ul>
-  <ul>Control + F to edit the following info:</ul>
-</ol>
 
-<BR>USERNAME
-<BR>FORMERLY KNOWN AS
-  <BR>ACCOUNT CONTENT
-<BR>CHOOSE GENDER
-  <BR>SHIELD https://thedailyneopets.com/articles/userlookup-shields - Click link to view all available shields.
-<BR>EDIT PETS HERE - Pet img URL structure is case sensitive!: https://neopetsclassic.com/images/pets/Species/80by80/species_color_happy.gif
-<BR>TROPHIES
+  <BR>Control + F to search for USERLOOKUP CONTENT STARTS HERE
+  <BR>Control + F to edit the following info:
+
+<ul>
+  <li><BR>USERNAME</li>
+  <li><BR>FORMERLY KNOWN AS</li>
+  <li> <BR>ACCOUNT CONTENT</li>
+  <li><BR>CHOOSE GENDER</li>
+ <li> <BR>SHIELD https://thedailyneopets.com/articles/userlookup-shields - Click link to view all available shields.</li>
+<li><BR>EDIT PETS HERE - Pet img URL structure is case sensitive!: https://neopetsclassic.com/images/pets/Species/80by80/species_color_happy.gif</li>
+  <li><BR>TROPHIES</li></ul>
 
