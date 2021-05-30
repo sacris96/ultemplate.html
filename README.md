@@ -7,7 +7,7 @@ A userlookup template for Neopets Classic, to plan your pets/account/etc. Have q
 
 <h1>Setup Instructions:</h1>
 <ol>
-  <li>Clone/fork this repo to your Github account.</li>
+  <li>Copy/clone this repo to your Github account.</li>
   <li>Setup "template.html" as a <a href="https://guides.github.com/features/pages/">public Github page.</a> (ex: https://trsilver.github.io/userlookup/template.html)</li>
   <li>Bookmark that URL & edit away!</li>
   </ol>
