@@ -23,6 +23,7 @@ A userlookup template for Neopets Classic, to plan your pets/account/etc. Have q
   <li>FORMERLY KNOWN AS</li>
   <li>ACCOUNT CONTENT</li>
   <li>CHOOSE GENDER</li>
+  <li>AVATAR</li>
  <li>SHIELD https://thedailyneopets.com/articles/userlookup-shields - Click link to view all available shields.</li>
 <li>EDIT PETS HERE - Pet img URL structure is case sensitive!: https://neopetsclassic.com/images/pets/Species/80by80/species_color_happy.gif</li>
   <li>TROPHIES</li></ul>
