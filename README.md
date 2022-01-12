@@ -3,8 +3,8 @@ A userlookup & pet template for Neopets Classic, to plan your pets/account/etc. 
 
 <BR><B>DISCLAIMER:</b> This is purely to plan your account/pets visually & not to scam/mislead users on-site.
 
-<h1><a href="https://trsilver.github.io/userlookup/ultemplate.html">View the Userlookup template</a></h1>
-  <h1><a href="https://trsilver.github.io/userlookup/pettemplate.html">View the Pet template</a></h1>
+<h1><a href="https://trsilver.github.io/npcplanner/ultemplate.html">View the Userlookup template</a></h1>
+  <h1><a href="https://trsilver.github.io/npcplanner/pettemplate.html">View the Pet template</a></h1>
 
 <h1>Setup Instructions:</h1>
 <ol>
