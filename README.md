@@ -38,6 +38,10 @@ A userlookup & pet template for Neopets Classic, to plan your pets/account/etc. 
 <ul>
   <li>NAME</li>
   <li>FORMERLY KNOWN AS</li>
+  <li>PET IMAGE</li>
+  <li>STATS</li>
+  <li>TROPHIES</li>
+  <li>PETPET</li>
     </ul>
 
     
