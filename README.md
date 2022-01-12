@@ -10,7 +10,7 @@ A userlookup & pet template for Neopets Classic, to plan your pets/account/etc. 
 <ol>
   <li>Copy/clone this repo to your Github account.</li>
   <li>Setup "ultemplate.html" / "pettemplate.html" as a <a href="https://guides.github.com/features/pages/">public Github page.</a> (ex: https://trsilver.github.io/npcplanner/template.html)</li>
-  <li>Bookmark that URL & edit away!</li>
+  <li>Bookmark that URL to view your template & edit away!</li>
   </ol>
 
 
