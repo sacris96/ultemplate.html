@@ -1,0 +1,267 @@
+
+
+
+
+
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/static/blog/main.css">
+  <link rel="shortcut icon" href="https://neopetsclassic.com/images/favicon.ico" type="image/x-icon">  
+  
+    <title>Neopets Classic</title>
+  
+  <script language=JavaScript><!--
+    var nl='en',nh=10,nm=45,ns=38,na='am',ncl=new Array(0,53,104,137,169,198,231,265,299,335,368,397,427),e=new Array(0,67,114,139,173,208,242,274,307,344,377,408,437);
+    function sh(i){ol.style.clip="rect("+ncl[i-1]+" 128 "+ncl[i]+" 0)";ol.style.visibility='visible'}
+    function sb(i){ol.style.clip="rect("+e[i-1]+" 130 "+e[i]+" 0)";ol.style.visibility='visible'}
+    function mo(){ol.style.visibility='hidden'};
+    //-->
+  </script>
+  <script type="text/javascript">
+  
+    var sec = 41;
+    var min = 25;
+    var hrs = 12;
+  
+    function pad ( val ) { return val > 9 ? val : "0" + val; }
+    function hrs_pad ( val ) { return val == 0 ? 12 : val; }
+    setInterval( function(){
+        $("#NST_clock_seconds").html(pad(++sec%60));
+        $("#NST_clock_minutes").html(pad(parseInt((min+(sec/60))%60,10)));
+        $("#NST_clock_hours").html(pad(hrs_pad(parseInt((hrs+(sec/3600))%12),10)));
+    }, 1000);
+  </script>
+</head>
+
+<body bgcolor="#FFFFFF">
+ <map name=a>
+  <area shape=rect coords="0,10,130,53" href="/addpet/" onmouseover="sh(1)" alt="Create a Neopet">
+  <area shape=rect coords="0,53,130,104" href="/petcentral/" onmouseover="sh(2)" alt="Pet Central">
+  <area shape=rect coords="0,104,130,137" href="/explore/" onmouseover="sh(3)" alt="Explore">
+  <area shape=rect coords="0,137,130,169" href="/gameroom/" onmouseover="sh(4)" alt="Games">
+  <area shape=rect coords="0,169,130,198" href="/neomessages/" onmouseover="sh(5)" alt="Neomail">
+  <area shape=rect coords="0,198,130,231" href="/objects/" onmouseover="sh(6)" alt="Shops">
+  <area shape=rect coords="0,231,130,265" href="/neoboards/" onmouseover="sh(7)" alt="Neoboards">
+  <area shape=rect coords="0,265,130,299" href="/nf/" onmouseover="sh(8)" alt="News">
+  <area shape=rect coords="0,299,130,335" href=/stuff.phtml onmouseover="sh(9)" alt="Stuff">
+  <area shape=rect coords="0,335,130,368" href="/help/" onmouseover="sh(10)" alt="Help">
+  <area shape=rect coords="0,368,130,397" href="/login/" onmouseover="sh(11)" alt="Login">
+  <area shape=rect coords="0,397,130,427" href="/logout/" onmouseover="sh(12)" alt="Logout">
+</map>
+<map name="b">
+  <area onmouseover="sb(1)" shape="RECT" alt="Pet Central" coords="0,1,130,67" href="/petcentral/">
+  <area onmouseover="sb(2)" shape="RECT" alt="Create a Pet" coords="0,67,130,114" href="/addpet/">
+  <area onmouseover="sb(3)" shape="RECT" alt="Neomail" coords="0,114,130,139" href="/neomessages/">
+  <area onmouseover="sb(4)" shape="RECT" alt="World" coords="0,139,130,173" href="/world/">
+  <area onmouseover="sb(5)" shape="RECT" alt="Explore" coords="0,173,130,208" href="/explore/">
+  <area onmouseover="sb(6)" shape="RECT" alt="Chat" coords="0,208,130,242" href="/neoboards/">
+  <area onmouseover="sb(7)" shape="RECT" alt="Games" coords="0,242,130,274" href="/gameroom/">
+  <area onmouseover="sb(8)" shape="RECT" alt="Shops" coords="0,274,130,307" href="/objects/">
+  <area onmouseover="sb(9)" shape="RECT" alt="News" coords="0,307,130,344" href="/nf/">
+  <area onmouseover="sb(10)" shape="RECT" alt="Help" coords="0,344,130,377" href="/help/">
+  <area onmouseover="sb(11)" shape="RECT" alt="Login" coords="0,377,130,408" href="/login/">
+  <area onmouseover="sb(12)" shape="RECT" alt="Logout" coords="0,408,130,437" href="/logout/">
+</map>
+
+<table cellspacing=0 cellpadding=0 background="https://neopetsclassic.com/images/misc/themes/default/hdr.gif" height=44 width=728 border=0>
+
+  
+  <tr><td width=130><a href=/><div style="height:34px;cursor:hand"></div></a></td>
+  <td align="right" valign=middle>
+  
+  <table align="right" valign=middle cellpadding=2><tr>
+    <td class=tt>
+      
+        
+        Welcome, <a class="tl" href="/userlookup/?user=ali">ali</a> |
+        
+         Pet : <a class="tl" href="/quickref/">Kepler</a> |
+        
+          NP : <a class="tl" href="/inventory/">374</a>
+        
+      
+    </td>
+    </tr>
+  </table></td>
+  <td width=10 />
+  </tr>
+  <tr><td height=8 /></tr>
+</table>
+
+<table cellpadding=0 cellspacing=0 border=0><tr>
+
+<td valign=top>
+<table cellpadding=0 cellspacing=0 border=0>
+<tr>
+<td width=128 valign=top>
+<img id=ol onmouseout="mo()" src="https://neopetsclassic.com/images/misc/themes/default/m5on.gif" usemap=#a border=0>
+<img id=m src="https://neopetsclassic.com/images/misc/themes/default/m5.gif" usemap=#a width=128 height=427 border=0><div>
+<table id=n cellpadding=0 cellspacing=0 width=128>
+  <tr><td class=tl height=277 align=center><br>
+  <span id=nst title="Next Restock/Kad Mini: 12:36:00 PM
+Next FEA Refresh: 12:32:00 PM">
+    <span style="text-transform:lowercase;">
+      
+      <span id="NST_clock_hours">12</span>:<span id="NST_clock_minutes">25</span>:<span id="NST_clock_seconds">41</span>
+      PM
+      
+    </span> 
+  NST
+  </span>
+  <br><br>
+  <form action="/search/" method=post>Search Neopets:
+    <input type="hidden" name="csrfmiddlewaretoken" value="OWJGPCt8S0EWeldqwPm4UbOu04rxS8vClgJ7AoKqsxXLpyAqdPhxF59IsVqy8vkn">
+  <input type=text name=searchquery size=7>
+  <input type=submit value=Go! style="font-size:8pt"></form>
+  <a href="#"><img src="https://neopetsclassic.com/images/misc/sidebarbanners/banner_3.gif" width="120px" height="60px"></a><br><br>
+  <form action="/guilds/guild.phtml?id=1469106" method=post>Select language:
+  <select name=lang style="font-size:8pt"><option value=en selected>English</option><option value=nl>Nederlands</option><option value=pt>Português</option><option value=de>Deutsch</option><option value=fr>Français</option><option value=it>Italiano</option><option value=es>Español</option><option value=ch>简体中文</option><option value=zh>繁體中文</option><option value=ja>日本語</option><option value=ko>한국어</option></select>
+  <input type=submit value="Go!" style="font-size:8pt"></form>
+  <a href=/linktous.phtml class=tl>link to us</a></td></table>
+  </td><td width=2 bgcolor=black></td></tr>
+  </table>
+  	<img id=mb src="https://neopetsclassic.com/images/misc/themes/default/1.gif" width=130 height=20 border="0">
+  </td>
+
+<script language=JavaScript>var ol = document.getElementById('ol');</script>
+<td style="padding:0px 5px 5px 10px;width:595" onmouseover="mo()" valign=top>
+  
+
+<table border=0>
+
+  <tbody>
+    <tr>
+      <td width=80>
+        
+        
+      </td>
+      
+      <td align=right>
+        <img src="https://neopetsclassic.com/images/banners/search.gif" width=480 height=62 alt="The Neopian Guild HQ." class="hdr">
+      
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+<div class="content">
+  <p><b>Pet Information</b></p>
+
+  <div class="petLookupContainer">
+      <div class="petTop">
+        
+        <h2 style="margin-bottom:0;">Earthbound the  <font color="yellowgreen">Snot</font> Aisha</h2>
+        <h4 style="margin-top:0;">( Formerly known as Spacey )</h4>
+        
+        <div class="petImage">
+          
+              
+              <img src="https://neopetsclassic.com/images/pets/Aisha/circle/aisha_snot_baby.gif" alt="">
+              
+          
+          <br><b>Earthbound</b>
+        </div>
+        <div class="petStatsBlock">
+          <b>- Statistics -</b>
+          <br>
+          <b>Age</b> : <b>53</b> days old (<b>1276</b> hours)
+          <br>
+          <b>Level</b> : 3
+          <br>
+          
+          <b>Owner</b> : ali (You!)
+          
+          <br>
+          
+          <b>Gender</b> : <font color="blue"><b>Male</b></font>
+          
+          <br>
+          <b>Height</b> : 75 cms.
+          <br>
+          <b>Weight</b> : 200 lbs.
+          <br>
+          <b>Hit Points</b> : <b><font color="ForestGreen">48 / 18</font></b>
+          <br>
+          <b>Strength</b> : weak
+          <br>
+          <b>Defence</b> : defenceless
+          <br>
+          <b>Movement</b> : super fast
+        </div>
+      </div>
+      <div id="center">
+        
+      </div>
+      <div class="petLinks" style="text-align:center;padding-top:20px;padding-bottom:10px;">
+        <a href="/neomessages/sendmessage/?username=ali">
+          <img src="https://neopetsclassic.com/images/mail_owner.gif">
+        </a>
+        <a href="">
+          <img src="https://neopetsclassic.com/images/visit_petpage.gif">
+        </a>
+      </div>
+      <hr>
+      <div class="petBDStats" style="margin:auto;width:50%;">
+        <div style="text-align:center;display:inline-block;">
+          <img src="https://neopetsclassic.com/images/pets/Aisha/rangedattack/aisha_snot_right.gif" alt="">
+        </div>
+        <div style="display:inline-block;vertical-align:top;height:150px;padding-top:8px;">
+          <p>
+            <b>BD Stats</b>
+            <br><br>
+            <b>Played</b> : 0
+            <br>
+            <b>Won</b> : 0
+            <br>
+            <b>Lost</b> : 0
+            <br>
+            <b>Drawn</b> : 0
+            <br>
+            <b>Score</b> : 0
+          </p>
+        </div>
+        
+        <hr>
+        
+      </div>
+      
+      <div id="center">
+        <p><b>Earthbound</b> has a Petpet!!</p>
+        <img src="/images/items/petpet_spooky_tenticle.gif">
+        <br>
+        <b>SNES the  Green Tentacle</b>
+        <br>
+        (10 days and 19 hours old)
+        
+      </div>
+      
+
+  </div>
+
+ </td>
+</tr>
+</table>
+<center>
+</td></tr><tr><td>&nbsp;</td><td align=center><br>
+<div id="bottomban"> <!--footerinc -->
+
+</div><P><font class=sf color=#666666>
+Neopets Classic is a fan recreation and is not affiliated with Neopets, Inc.
+<br>
+NEOPETS, characters, logos, names and all related indicia<br>
+are trademarks of <a href='http://www.neopets.com/aboutus.phtml'><font class=sf>Neopets, Inc.,</a><font class=sf color=#666666> &copy; 1999-2022.
+ </font><br><a href='/privacy.phtml' class=sf>PRIVACY POLICY</a> | <a href='/safetytips.phtml' class=sf>Safety Tips</a> | <a href='/contact.phtml' class=sf>Contact Us</a> | <a href='/aboutus.phtml' class=sf>About Us</a> | <a href='/presskit_form.phtml' class=sf>Press Kit</a>
+<script language=JavaScript><!--
+if(navigator.appVersion.indexOf("MSIE")>0&&parseInt(navigator.appVersion)>=4){document.write(' | <a href="javascript:window.external.AddFavorite(document.location,document.title)"><font class=sf>Bookmark Us</a>');}
+//-->
+</script><br><font class=sf>Use of this site signifies your acceptance of the <a href=/terms.phtml><font class=sf>Terms and Conditions</a><br clear=all><br><br>
+<!--
+ host - www197.sjo.neopets.com
+//-->
+</body></html>
