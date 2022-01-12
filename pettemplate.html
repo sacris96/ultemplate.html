@@ -1,7 +1,729 @@
+<style>input {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+}
 
+body {
+margin: auto;
+color: #010200;
+}
 
+a {
+color: #000099;
+text-decoration: none;
+font-weight: bold;
+}
 
+a:hover {
+  color:#990000;
+}
 
+.header {
+  background-image: url(http://neopetsclassic.com/images/misc/themes/default/hdr.gif);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 44px;
+  position: relative;
+}
+
+.userInfo {
+  width: 728px;
+  height: 35px;
+  position: absolute;
+}
+
+.userInfo p {
+  font-family: "Verdana", "Arial", "Helvetica";
+  font-size: 7.5pt;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 15px;
+  margin-top: 13px;
+}
+
+.sidebar {
+  width: 128px;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-right-color: black;
+  float: left
+}
+
+.navbar {
+  height: 427px;
+  width: inherit;
+}
+
+.sbOff {
+  height: 427px;
+  width: 128px;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  z-index: 1;
+}
+
+.sbOn {
+  background-image: url("http://neopetsclassic.com/images/misc/themes/default/m5on.gif");
+  height: 427px;
+  position: relative;
+}
+
+.navicons {
+  background-repeat: no-repeat;
+}
+
+.sidebarfooter {
+  background-image: url(http://images.neopets.com/t/1.gif);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 20px;
+}
+
+.container {
+  width: auto;
+  max-width: 650px;
+  float: left;
+  margin-left: 10px;
+  font-family: "Verdana", "Arial", "Helvetica";
+  font-size: 10pt;
+}
+
+.container-header {
+  float: left;
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+
+.notifications {
+  margin-left: 13px;
+  margin-right: 13px;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+
+.content {
+  clear: both;
+  max-width: 595px;
+}
+
+.quickref_content {
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+#map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.shopbar {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 550px;
+  height: 85px;
+}
+
+#navcreatepet:hover {
+  background-image: url("https://i.imgur.com/rWt29Pj.png");
+}
+
+.loginbox {
+  width: 300px;
+  height: 95px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginlabels {
+  background-color: #ffeeaa;
+  width: 40%;
+  float: left;
+  height: 65px;
+}
+
+.loginlabels p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 3px;
+}
+
+.logininputs {
+  width: 60%;
+  background-color: #fffdce;
+  height: 65px;
+  float: right;
+}
+
+#logintextbox {
+  margin-top: 6px;
+  margin-bottom: 3px;
+  margin-left: 3px;
+  width: 95px;
+  height: 16px;
+}
+
+.loginbutton {
+  background-color: #ffedc7;
+  width: 100%;
+  height: 30px;
+}
+
+#loginbutton {
+  margin: 0 auto;
+  display: block;
+  width: 146px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.neologin {
+  width: 300px;
+  height: 95px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fffdce;
+}
+
+.petStats {
+  width: 150px;
+  display: inline-block;
+  text-align: center;
+}
+
+.petTop {
+  width: 436px;
+  display: inline-block;
+  text-align: center;
+  margin-left: 55px;
+}
+
+.petStatsBlock {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 270px;
+  display: inline-block;
+  background-color: #ffffcc;
+  float: right;
+}
+
+.petImage {
+  float: left;
+  margin-right: 8px;
+}
+
+.petLookupContainer {
+  width: 526px;
+  margin: auto;
+}
+
+.userLookupContainer {
+}
+
+.userLookupContent {
+  display: inline-block;
+  float: left;
+}
+
+.userLookupShield {
+  display: inline-block;
+  float: right;
+  width: 100px;
+}
+
+.userLookupLinks {
+  text-align: center;
+  font-size: 7.5pt;
+}
+
+.userLookupLink {
+  display: inline-block;
+  margin: auto;
+  padding: 15px;
+}
+
+.userLookupPets {
+  text-align: center;
+  width: 600px;
+}
+
+.userLookupPet {
+  display: inline-block;
+  margin: auto;
+}
+
+#userlookup-user {
+  text-align: center;
+}
+
+#inventoryitempic {
+  border: 1px solid #000099;
+}
+
+#inventoryitempic:hover {
+  cursor: pointer;
+}
+
+.inventoryitem {
+  display: inline-block;
+  width: 106px;
+  text-align: center;
+  vertical-align: top;
+  padding-bottom: 10px;
+}
+
+.shoplinks {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.invContent, .safetyDepositHeader {
+  max-width: 585px;
+}
+
+.sdbtable {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.sdbtd {
+  padding: 3px;
+}
+
+.sdbtablebody {
+  text-align: left;
+}
+
+#sdbheader {
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 9pt;
+}
+
+#sdbname {
+  width: 85px;
+}
+
+#sdbpicd {
+  width: 82px;
+}
+
+#sdbqty {
+  width: 50px;
+  text-align: center;
+}
+
+#sdbcategory {
+  width: 130px;
+}
+
+#sdbdesc {
+  width: 190px;
+}
+
+#sdbrm a {
+  font-weight: normal;
+}
+
+#sdbpic {
+  border: 1px solid #000099;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.qstable {
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+.qstable th {
+  font-size: 10pt;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: #efedc0;
+}
+
+.qstable tr:nth-child(even) td {
+    background-color: #ffffaa;
+}
+
+.qstable tr:nth-child(odd) td {
+    background-color: #ffffff;
+}
+
+#qstd {
+  width: 60px;
+  text-align: center;
+  padding: 3px;
+}
+
+#qsfooter {
+  text-align: center;
+  background-color: #efedc0;
+}
+
+.qstablebody {
+  text-align: left;
+}
+
+.poundContent {
+  width: 595px;
+}
+
+.poundPets {
+  width: 185px;
+  display: inline-block;
+}
+
+.poundPets a {
+  font-weight: normal;
+}
+
+#sidePets img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.poundWrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#adoptbutton {
+  width: 275px;
+}
+
+#refreshbutton {
+  width: 225px;
+}
+
+#underpets {
+  margin-top: 5px;
+}
+
+#tpheader {
+  font-size: 12pt;
+  padding: 2px;
+}
+
+.tradingPostTable {
+  max-width: 400px;
+  border: 4px solid #aaccaa;
+  padding: 4px;
+  border-spacing: 0px;
+  text-align: left;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.tradingpostCreateTable {
+  border-collapse: collapse;
+  width: 340px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.tradingPostTable a {
+  word-break: break-word;
+  font-weight: normal;
+}
+
+#tradingLotID {
+  padding-bottom: 15px;
+}
+
+#tradingLotWishlist {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#tradingCancel {
+  text-align: center;
+}
+
+#tradingCancel a {
+  font-size: 8pt;
+}
+
+#tradingCancel h3 {
+  margin: 0 auto;
+}
+
+#tradingCancelBtn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+#tradingCreate {
+  border: 2px solid #aaccaa;
+}
+
+#tradingWishlist {
+  width: 235px;
+  height: 50px;
+}
+
+.errorpage p {
+  font-family: "Verdana", "Arial", "Helvetica";
+  font-size: 10pt;
+}
+
+.poundImages {
+  width: 400px;
+  margin: 0 auto;
+}
+
+#poundImage {
+  float: left;
+}
+
+.bankHeader {
+  text-align: center;
+}
+
+#clock {
+  width: 110px;
+  font-size: 8pt;
+  border: 1px solid #000000;
+  background-color: #FFFF63;
+  color: #000000;
+  padding: 2px;
+  margin: 0px;
+}
+
+.fruitmachineimages {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#fruitprize {
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+#fmgz {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.fruitmachinepics {
+  text-align: center;
+}
+
+.addpetContent {
+  width: 600px;
+}
+
+.addpetChoices {
+  text-align: center;
+  display: inline-block;
+}
+
+.addpetChoices img {
+  padding-top: 10px;
+}
+.addpetPets {
+  width: 500px;
+  margin: auto;
+}
+
+.addpetButtons {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#addpetBtn {
+  margin: 5px;
+}
+
+.myNewPet {
+  padding-top: 25px;
+  margin: auto;
+  text-align: center;
+  width: 150px;
+}
+
+.loggedIn {
+  text-align: center;
+}
+
+.searchblock {
+  width: 128px;
+  text-align: center;
+  display: inline-block;
+  background-color: #ffce00;
+  font-family: "Verdana", "Arial", "Helvetica";
+  font-size: 7pt;
+}
+
+#searchBar {
+  width: 85px;
+}
+
+#searchButton {
+  width: 20px;
+  font-size: 7.5pt;
+  padding: 1px;
+  height: 20px;
+}
+
+#searchItem {
+  font-size: 7.5pt;
+}
+
+#searchTable {
+  text-align: center;
+}
+
+A,TD,P,BODY {
+  color: #000099;
+  font-family: verdana,arial,helvetica;
+  font-size: 10pt;
+  text-decoration: none;
+}
+
+TD,P,BODY {
+  color: black;
+}
+
+DIV,BODY,IMG {
+  margin: 0px;
+  padding: 0px;
+}
+
+.sf,.smallfont,.tt,.tl {
+  font-size: 7.5pt;
+}
+
+.tt {
+  font-weight: bold;
+}
+
+#ban {
+  width: 728px;
+  height: 90px;
+  margin: 0px;
+  background-color: #FFCE00;
+}
+
+#nst {
+  width: 110px;
+  font-size: 8pt;
+  border: 1px solid #000000;
+  background-color: #FFFF63;
+  color: #000000;
+  padding: 2px;
+  margin: 0px;
+}
+
+#ol {
+  position: absolute;
+  visibility: hidden;
+}
+
+#m,#n,#mb {
+  background-color: #FFCE00;
+}
+
+.petContainer {
+  width: 615px;
+}
+
+.mailTitle {
+  font-size: 18pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.neopia-map {
+  margin-top: 20px;
+}
+
+#userInfoHeader {
+  font-size: 10pt;
+}
+
+.nbtable tr:nth-child(odd) td {
+    background-color: #f1f3f0;
+}
+
+.nbtable tr:nth-child(even) td {
+    background-color: #FFFFFF;
+}
+
+.auction_table {
+  border-collapse: collapse;
+}
+
+.auction_table td {
+  text-align: center;
+}
+
+.auction_table tr:nth-child(odd) td {
+    background-color: #ffffcc
+}
+
+.auction_table tr:nth-child(even) td {
+    background-color: #ffffee;
+}
+
+#center {
+  text-align: center;
+}
+
+.neomail_table {
+  border-collapse: collapse;
+}
+
+.neomail_table td {
+  border-bottom: 1px solid black;
+  font-size: 9pt;
+}
+
+.neomail_table a {
+  font-size: 9pt;
+}
+
+.neomail_table tr:nth-child(odd) td {
+    background-color: #efefef
+}
+
+.neomail_table th {
+  background-color: #ffcf01;
+  font-size: 8pt;
+  text-align: left;
+}
+
+.donation_item {
+  display: inline-block;
+  width: 106px;
+  text-align: center;
+  vertical-align: top;
+  padding: 0 10px 10px 10px;
+}
+
+.donationscontainer {
+  margin: auto;
+  width: 525px;
+	}</style>
 
 <html>
 <head>
