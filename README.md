@@ -14,7 +14,7 @@ A userlookup & pet template for Neopets Classic, to plan your pets/account/etc. 
   </ol>
 
 
-<h1>How To Edit:</h1>
+<h1>How To Edit (Userlookup):</h1>
 
   <BR>Control + F to search for USERLOOKUP CONTENT STARTS HERE
   <BR>Control + F to edit the following info:
@@ -29,5 +29,15 @@ A userlookup & pet template for Neopets Classic, to plan your pets/account/etc. 
 <li>EDIT PETS HERE - Pet img URL structure is case sensitive!: https://neopetsclassic.com/images/pets/Species/80by80/species_color_happy.gif</li>
   <li>TROPHIES</li></ul>
 
+    
+<h1>How To Edit (Pet Lookup):</h1>
+
+  <BR>Control + F to search for PET CONTENT STARTS HERE
+  <BR>Control + F to edit the following info:
+
+<ul>
+  <li>NAME</li>
+  <li>FORMERLY KNOWN AS</li>
+    </ul>
 
     
